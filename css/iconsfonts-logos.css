@@ -1,0 +1,59 @@
+@font-face {
+  font-family: 'icons-logos';
+  src:
+    url('../fonts/fonts-logos/icons-logos.ttf?pm1xgj') format('truetype'),
+    url('../fonts/fonts-logos/icons-logos.woff?pm1xgj') format('woff'),
+    url('../fonts/fonts-logos/icons-logos.svg?pm1xgj#icons-logos') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-logos"]::before, [class*=" icon-logos"]::before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icons-logos' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-logosacte:before {
+  content: "\e912";
+}
+.icon-logoscontea-partners:before {
+  content: "\e916";
+}
+.icon-logoscytel-8967:before {
+  content: "\e917";
+}
+.icon-logoskeravision:before {
+  content: "\e91a";
+}
+.icon-logosknockout:before {
+  content: "\e91b";
+}
+.icon-logosnetegrity-partners:before {
+  content: "\e91e";
+}
+.icon-logospediatric-partners:before {
+  content: "\e921";
+}
+.icon-logospolitec:before {
+  content: "\e924";
+}
+.icon-logosthe-ombudsman-association:before {
+  content: "\e92d";
+}
+.icon-logosyunkeru:before {
+  content: "\e934";
+}
+.icon-logoszte-logo:before {
+  content: "\e935";
+}
